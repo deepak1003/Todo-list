@@ -1,0 +1,104 @@
+/* declaring variable for grey color */
+:root{
+    --text-color : rgb(152, 152, 152);
+}
+
+/* declaring class where grey color needs */
+.grey{
+    color: var(--text-color);
+}
+
+/* styling main section */
+#main{
+   margin-top: 10%;
+   margin-left: 25%;
+   width: 40%;
+   background-color: rgb(255, 255, 255);
+   border-radius: 10px;
+}
+
+/* styling body content */
+body{
+    background-color: rgb(225, 225, 225);
+}
+
+/* styling input box */
+input[type=text] {
+    width: 95%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('./assets/file.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    margin: 2%;
+}
+
+/* styling file image in input box */
+ #file{
+    float: left;
+    width: 2%;
+    margin-left: 15px;
+    margin-top: 20px;
+    position: absolute;
+ }
+ 
+ /* styling add button in input box */
+ #add{
+    float: right;
+    width: 2%;
+    margin-left: -50px;
+    margin-top: 20px;
+    position: absolute; 
+    visibility: hidden;
+    /* visibility: visible; */
+} 
+
+/* declaring common style for align content in right */
+.float-right{
+    float: right;
+}
+
+/* declaring common style for align content in left */
+.float-left{
+    float: left;
+}
+
+/* styling heading of todolist */
+#cleartxt{
+    margin-right: 20px;
+}
+#completeText{
+    margin-left: 8%;
+}
+#tick{
+    float: left;
+    width: 1%;
+    margin-left: 15px;
+    margin-top: 2px;
+    position: absolute;
+}
+
+/* styling todo list main div */
+.checkBox{
+    font-size: large;
+    margin-top: 15px;
+    width: 6%;
+}
+
+/* delete button style */
+.delete-image{
+    float: right;
+    width: 1.2rem;
+    margin-left: 36%;
+    margin-top: 15px;
+    position: absolute;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+
+  

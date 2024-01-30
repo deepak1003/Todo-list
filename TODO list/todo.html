@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <!-- adding CSS -->
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <!-- main section -->
+    <section id="main">
+        <!-- main div container -->
+        <div >
+            <!-- adding file image, input box, add button -->
+            <form>
+                <img src="./assets/file.png" alt="" srcset="" id="file">
+                <input type="text" name="search" placeholder="Type your todo list" id="input">
+                <img src="./assets/add.png" alt="" srcset="" id="add">
+            </form>
+
+            <!-- list heading -->
+            <div>
+                <img src="./assets/checkmark.png" alt="" srcset="" id="tick">
+                <span class="grey" id="completeText">complete all tasks</span>
+                <span class="float-right grey" id="cleartxt">clear completed</span>
+            </div>
+            <div>
+                <hr style=" width: 95%;" class="grey">
+            </div>
+
+            <!-- adding todo list here -->
+            <div id="checkbox">
+            </div>
+            <div>
+                <hr style=" width: 95%;" class="grey">
+            </div>
+
+            <!-- footer content like total count -->
+            <div style="margin-left: 10px; margin-right: 10px;">
+                <span id="totalText">0</span>
+                <span class="grey">task left</span>
+                <span class="float-right" style="display: inline-block; margin-left: -8%;">All <span class="grey" >&emsp; Uncomplete  &emsp;Completed</span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- adding JS file -->
+    <script src="todo.js"></script>
+</body>
+</html>
